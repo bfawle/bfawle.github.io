@@ -1,0 +1,92 @@
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cognitive Enablement Team Location</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<style type="text/css">
+    .bs-example{
+    	margin: 20px;
+    }
+</style>
+</head>
+<body>
+<div class="jumbotron" style="background-image:url('./images/Avatar_new.png');background-repeat:no-repeat;background-position:85% center;background-size:auto auto;">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <h2 class="cog-bld col-lg-10 col-sm-10 col-xs-8">Cognitive@IBM Enablement Team Location</h2>
+                        <h4 class="cog-bld col-lg-10 col-sm-10 col-xs-8">Here you can view where our team is located. </h4>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <h4 class="cog-h4"></h4><br />
+                        
+                    </div>
+                </div><!-- .row -->
+            </div><!-- .container-fluid -->
+        </div><!-- .jumbotron -->
+
+
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      
+    </div>
+    
+      <ul class="nav navbar-nav navbar-right">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" role="menuitem" href="././Index.html">Home</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" role="menuitem" href="././About.html">About</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" role="menuitem" href="././guidelines.html">Guidelines</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" role="menuitem" href="././resources.html">Resources</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" role="menuitem" href="././offerings.html">Offerings</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" role="menuitem" href="././assets.html">Assets</a>
+                        </li>
+                    </ul>
+    </div>
+  </div>
+</nav>
+    
+  </div>
+</nav>
+<body>
+ 
+
+    <div id="map" style="width:100%;height:300px"></div>
+
+    <script>
+function myMap() {
+  var mapCanvas =  document.getElementById("map");
+  var mapOptions = {
+     center: new google.maps.LatLng(53.41562,-6.421251),
+    zoom: 12
+  }
+  var  map = new google.maps.Map(mapCanvas, mapOptions);
+}
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+
+</body>
+</html> 
