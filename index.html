@@ -1,9 +1,345 @@
 <!DOCTYPE html>
 <html>
-	<head>
+<title>Analytics Squad</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="./css/bootstrap.min.css" rel="stylesheet">
+        <link href="./css/bootstrap.css" rel="stylesheet">
+        <!-- AEG - 20161206: Custom styling -->
+       <!-- <link href="./css/cognicustom.min.css" rel="stylesheet">-->
+
+<style>
+html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
+.mySlides {display:none}
+.w3-tag, .fa {cursor:pointer}
+.w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-large w3-blue">
+    <div class="w3-col s2">
+      <a href="#" class="w3-button w3-block">Home</a>
+    </div>
+<div class="w3-col s2">
+      <a href="#offer" class="w3-button w3-block">What We Offer</a>
+    </div>
+
+    <div class="w3-col s2">
+      <a href="#plans" class="w3-button w3-block">Technologies</a>
+    </div>
+    <div class="w3-col s2">
+      <a href="#about" class="w3-button w3-block">About</a>
+    </div>
+    <div class="w3-col s2">
+      <a href="#contact" class="w3-button w3-block">Our Location</a>
+    </div>
+<div class="w3-col s2">
+      <a href="#bot" class="w3-button w3-block">CogBot</a>
+    </div>
+
+  </div>
+</div>
+
+<!-- Content -->
+<div class="w3-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
+
+  <div class="w3-panel">
+    <h1><IMG SRC="Avatar_new.png" ALT="some text" WIDTH=100 HEIGHT=100><b>ANALYTICS@IBM</b
+</h1>
+   <!-- <p>Template by w3.css</p>-->
+  </div>
+
+  <!-- Slideshow -->
+  <div class="w3-container">
+    <div class="w3-display-container mySlides">
+<img  src="images/m&apro3.JPG" width="100%" height="345"/>
+     <!-- <img src="images/m&apro3.JPG" style="width:100%">-->
+      <div class="w3-display-topleft w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">M&A Pro</span>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img  src="images/m&apro2.JPG" width="100%" height="345"/>
+      <div class="w3-display-middle w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">M&A Pro</span>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img  src="images/workbench.JPG" width="100%" height="345"/>
+      <div class="w3-display-topright w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">Workbench</span>
+      </div>
+    </div>
+
+    <!-- Slideshow next/previous buttons -->
+    <div class="w3-container w3-blue w3-padding w3-xlarge">
+      <div class="w3-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-circle-left w3-hover-text-teal"></i></div>
+      <div class="w3-right" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right w3-hover-text-teal"></i></div>
+    
+      <div class="w3-center">
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Grid -->
+<div class="w3-center w3-padding-64" id="offer">
+      <div class="w3-row w3-container">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16"><b>What We Offer</b></span>
+    </div>
+    <div class="w3-col l3 m6 w3-blue w3-container w3-padding-16">
+      <h3>M&A Pro Application</h3>
+      <p>
+M&A Pro Application is a Post Mergers and Acquisitions tool which monitors and reports on the progress of the IBM acquisition business for a further 2 years. The team supports and develops enhancements to this application</p>
+    </div>
+
+<!--    <div class="w3-col l3 m6 w3-grey w3-container w3-padding-16">-->
+<div class="w3-col l3 m6 w3-black w3-container w3-padding-16">
+
+      <h3>M&A Workbench Application</h3>
+      <p>
+M&A Workbench Application
+Workbench Application A Pre Mergers and Acquisition tool that crawls data to provide valuable insight on potential future acquisitions or mergers. Our team support this application</p>
+    </div>
+
+    <div class="w3-col l3 m6 w3-blue w3-container w3-padding-16">
+      <h3>WEX / WCA </h3>
+      <p>Watson Explorer and Watson Explorer Content Analytics serviced environments are supported by the team. You will need to apply for access to the applications through Engage US. Any questions contact us through our inbox.</p>
+    </div>
+
+    <div class="w3-col l3 m6 w3-black w3-container w3-padding-16">
+      <h3>Portfolio Management</h3>
+      <p>Portfolio Asset Management System
+Delivering updated information around the progress of each of the following
+GDPR
+DST Costings
+Various Security Initiatives(e.g. Apache Struts)
+to Domain Leader.</p>
+    </div>
+  </div>
+
+  <!-- Grid -->
+  <div class="w3-row-padding" id="plans">
+    <div class="w3-center w3-padding-64">
+      <h3><b>Technologies</b></h3>
+      <p>Choose the technologies that fits your needs.</p>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Watson Analytics</li>
+        <li class="w3-padding-16"><b>Watson Explorer</b> <div class="" style="height:100px;"><img  src="wat.jpg" alt="My picture" /></div>
+</li>
+      <li class="w3-padding-16"><b>Watson Explorer Content Analytics</b> <div class="" style="height:100px;"><img  src="wat.jpg" alt="My picture" /></div>
+</li>
+<li class="w3-padding-16"><b>Jenkins</b> <div class="" style="height:100px;"><img  src="jen.jpg" alt="My picture" /></div>
+</li>
+<li class="w3-padding-16"><b>Apis</b> <div class="" style="height:100px;"><img  src="api.jpg" alt="My picture" /></div>
+</li>
+
+      <!--  <li class="w3-padding-16"><b>Endless</b> Support</li>-->
+       <!-- <li class="w3-padding-16">
+          <h2 class="w3-wide">$ 10</h2>
+          <span class="w3-opacity">per month</span>
+        </li>-->
+        <li class="w3-light-grey w3-padding-24">
+<a href="mailto:cognitive.enablement@ie.ibm.com" class="w3-button w3-green w3-padding-large">Sign Up</a></p>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-blue w3-xlarge w3-padding-32">M&A-Pro</li>
+        <li class="w3-padding-16"><b>SPSS</b> <div class="" style="height:100px;"><img  src="spss.jpg" alt="My picture" /></div>
+</li>
+        <li class="w3-padding-16"><b>COGNOS</b> <div class="" style="height:100px;"><img  src="cog.jpg" alt="My picture" /></div>
+</li>
+        <li class="w3-padding-16"><b>WebSphere</b> <div class="" style="height:100px;"><img  src="webs.jpg" alt="My picture" /></div>
+</li>
+        <li class="w3-padding-16"><b>GitHub</b> <div class="" style="height:100px;"><img  src="gith.jpg" alt="My picture" />
+</div>
+</li>
+     <!--   <li class="w3-padding-16">
+          <h2 class="w3-wide">$ 25</h2>
+          <span class="w3-opacity">per month</span>
+        </li>-->
+        <li class="w3-light-grey w3-padding-24">
+         <a href="mailto:cognitive.enablement@ie.ibm.com" class="w3-button w3-green w3-padding-large">Sign Up</a></p>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">M&A Workbench</li>
+        <li class="w3-padding-16"><b>Node.js</b> <div class="" style="height:100px;"><img  src="node.jpg" alt="My picture" />
+    </div>
+</li>
+        <li class="w3-padding-16"><b>DB2</b> <div class="" style="height:100px;"><img  src="db2.jpg" alt="My picture" /></li>
+        <li class="w3-padding-16"><b>ElasticSearch</b> <div class="" style="height:100px;"><img  src="elas.jpg" alt="My picture" /></div>
+</li>
+        <li class="w3-padding-16"><b>Cassandra</b> <div class="" style="height:100px;"><img  src="cass.jpg" alt="My picture" /></div>
+</li>
+      <!--  <li class="w3-padding-16">
+          <h2 class="w3-wide">$ 50</h2>
+          <span class="w3-opacity">per month</span>
+        </li>-->
+        <li class="w3-light-grey w3-padding-24">
+         <a href="mailto:cognitive.enablement@ie.ibm.com" class="w3-button w3-green w3-padding-large">Sign Up</a></p>
+
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Grid -->
+  <div class="w3-row-padding" id="about">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16"><b>Who We Are</b></span>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+<img class="avatar rounded-2 img-circle"img src="dave.JPG" width="150px" height="150px"></img>
+
+<h4 class="cog-bld">DAVE KELLY</h4>
+                    <h4 class="cog-h4 cog-bld">TRIBE LEADER</h4>
+                    <p>Leader - Solutions Tribe , Analytics@IBM
+Finance and Operations </p>
+<p>
+<a href="mailto:mailto:dave_kelly@ie.ibm.com" class="w3-button w3-light-grey w3-block">Contact: Dave</a></p>
+</p>
+        </div>
+      </div>
+<div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+<img class="avatar rounded-2 img-circle"img src="https://pages.github.ibm.com/Analytics-IBM/cognitive-enablement/team/Donald.jpg"  width="150px" height="150px"></img>
+<h4 class="cog-bld">DONALD FRASER</h4>
+                    <h4 class="cog-h4 cog-bld">CONSULTANT</h4>
+                    <p>Donald is a Service Management specialist with a strong focus on Customer Care</p>
+<p>
+<a href="mailto:mailto:FRASERD@IE.IBM" class="w3-button w3-light-grey w3-block">Contact: Donald</a></p>
+</p>
+  </div>
+      </div>
+<div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+<img class="avatar rounded-2 img-circle"img src="https://pages.github.ibm.com/Analytics-IBM/cognitive-enablement/team/Jan.jpg" width="150px" height="150px"></img>
+                    <h4 class="cog-bld">JAN MAHON</h4><h4 class="cog-h4 cog-bld">ITERATION MANAGER</h4>
+                    <p>Jan is a Project/ Iteration Manager with full project lifecycle delivery experience.</p>
+<p>
+<a href="mailto:mailto:jan.mahon@ie.ibm.com" class="w3-button w3-light-grey w3-block">Contact: Jan</a></p>
+</p>
+   </div>
+      </div>
+<div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+<img class="avatar rounded-2 img-circle"img src="https://pages.github.ibm.com/Analytics-IBM/cognitive-enablement/team/Debbie.jpg"  width="150px" height="150px"></img>
+                    <h4 class="cog-bld">DEBBIE CORCORAN</h4>
+                    <h4 class="cog-h4 cog-bld">CONSULTANT</h4>
+                    <p>Debbie is a Team Lead with strong technical and customer skills.</p>
+<p>
+<a href="mailto:debbie.corcoran@ie.ibm.com" class="w3-button w3-light-grey w3-block">Contact: Debbie</a></p>
+</p>        
+        </div>
+      </div>
+<div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+<img class="avatar rounded-2 img-circle"img src="https://pages.github.ibm.com/Analytics-IBM/cognitive-enablement/team/Breda.jpg" width="150px" height="150px"></img>
+                    <h4 class="cog-bld">BREDA FAWLE</h4>
+                    <h4 class="cog-h4 cog-bld">CONSULTANT</h4>
+                    <p>Breda is a Consultant with experience in Application Development and Business Analysis</p>
+<p>
+<a href="mailto:bfawle@ie.ibm.com" class="w3-button w3-light-grey w3-block">Contact: Breda</a></p>
+</p>
+        </div>
+      </div>
+<div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+<img class="avatar rounded-2 img-circle"img src="https://pages.github.ibm.com/Analytics-IBM/cognitive-enablement/team/martin.jpg" width="150px" height="150px"></img>
+                    <h4 class="cog-bld">MARTIN NEARY</h4>
+                    <h4 class="cog-h4 cog-bld">DEVELOPER</h4>
+                    <p>Martin is a Cognitive Developer with experience in Java and Databases</p>
+<p>
+<a href="mailto:MARTINNE@ie.ibm.com" class="w3-button w3-light-grey w3-block">Contact: Martin</a></p>
+</p>
+        </div>
+     </div>
+
+        <!--   <img src="/w3images/team1.jpg" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>Jane Doe</h3>
+          <p class="w3-opacity">CEO & Founder</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <p><button class="w3-button w3-light-grey w3-block">Contact:<a href="mailto:cognitive.enablement@ie.ibm.com">
+ <b> cognitive.enablement@ie.ibm.com</b></a>.</p>
+</button></p>
+        </div>
+      </div>
+    </div>-->
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img class="avatar rounded-2 img-circle"img src="https://pages.github.ibm.com/Analytics-IBM/cognitive-enablement/team/pedro.jpg" width="150px" height="150px"></img>
+                    <h4 class="cog-bld">PEDRO BARBAS</h4>
+                    <h4 class="cog-h4 cog-bld">ARCHITECT</h4>
+                    <p>Pedro is an IBM Master Inventor - Analytics Architect</p>
+<p>
+<a href="mailto:PBARBAS@ie.ibm.com" class="w3-button w3-light-grey w3-block">Contact: Pedro</a></p>
+</p>
+          </div>
+      </div>
+        <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img class="avatar rounded-2 img-circle"img src="https://pages.github.ibm.com/Analytics-IBM/cognitive-enablement/team/johnson.jpg" width="150px" height="150px"></img>
+                    <h4 class="cog-bld">JOHNSON UMAN</h4>
+                    <h4 class="cog-h4 cog-bld">DEVELOPER</h4>
+                    <p>Johnson is a Cognitive Developer with experience in Bluemix and WebSphere</p>
+<p>
+<a href="mailto:JOHNUMAN@ie.ibm.com" class="w3-button w3-light-grey w3-block">Contact: Johnson</a></p>  
+</p>  
+   
+        </div>
+      </div>
+</div>
+    
+ <!-- Contact -->
+
+  <div class="w3-center w3-padding-64" id="contact">
+    <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16"><b>Location</b></span>
+  </div><div id="map" style="width:100%;height:300px"></div>
+
+
+    <script>
+function myMap() {
+  var mapCanvas =  document.getElementById("map");
+  var mapOptions = {
+     center: new google.maps.LatLng(53.41562,-6.421251),
+    zoom: 12
+  }
+  var  map = new google.maps.Map(mapCanvas, mapOptions);
+}
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+
+
+</div>
+<!-- cogbot -->
+<div class="w3-center w3-padding-64" id="bot">
+    <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16"><b>CogBot</b></span>
+<head>
 		<title>chat-bot</title>
-		<link rel="stylesheet" type="text/css" href="css/reset.css" />
-		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<!--<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />-->
 	</head>
 	<body>
 		<div class="container">
@@ -19,4 +355,58 @@
 		<script type="text/javascript" src="js/chat-bot.js"></script>
 		<script type="text/javascript" src="js/index.js"></script>
 	</body>
+
+
+
+<!-- Footer -->
+
+<footer class="w3-container w3-padding-32 w3-light-grey w3-center">
+  <h4>Footer</h4>
+  <a href="#" class="w3-button w3-black w3-margin"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>Posted by: Analytics@IBM Team</p>
+  <p>Contact information: <a href="mailto:cognitive.enablement@ie.ibm.com">
+ <b> cognitive.enablement@ie.ibm.com</b></a>.</p>
+
+</footer>
+
+
+<script>
+// Slideshow
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demodots");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+
+</body>
 </html>
